@@ -47,7 +47,7 @@ fetchBreeds()
 
           document.querySelector('.cat-info').insertAdjacentHTML(
             'beforeend',
-            `<img src="${breed[0].url}" alt="" width="512px" />
+            `<img src="${breed[0].url}" alt="" width="50%" height=50%/>
       
       <div class='cat-info-desc'>
       <h1>${selectedBreed[0].name}</h1>
